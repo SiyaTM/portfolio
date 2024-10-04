@@ -15,7 +15,7 @@ const RecentProjects = () => {
         {/* Show projects*/}
         <div 
             className='flex flex-wrap items-center justify-center p-4 
-            gap-x-24 gap-y- mt-10'
+            gap-x-24 gap-y-8 mt-10'
         >
             {/* Project mappings */}
             {projects.map(({ id, title, des, img, iconLists, link}) => (
